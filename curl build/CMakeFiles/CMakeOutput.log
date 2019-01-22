@@ -1,0 +1,817 @@
+The system is: Windows - 10.0.16299 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/User/Desktop/curl build/CMakeFiles/3.11.0/CompilerIdC/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_504c6/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_504c6.dir\build.make CMakeFiles/cmTC_504c6.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_504c6.dir/testCCompiler.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_504c6.dir\testCCompiler.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\testCCompiler.c"
+Linking C executable cmTC_504c6.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_504c6.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_504c6.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_504c6.dir/objects.a @CMakeFiles\cmTC_504c6.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_504c6.dir/objects.a -Wl,--no-whole-archive  -o cmTC_504c6.exe -Wl,--out-implib,libcmTC_504c6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_504c6.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_b8bf8/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b8bf8.dir\build.make CMakeFiles/cmTC_b8bf8.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8bf8.dir/CMakeCCompilerABI.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_b8bf8.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_b8bf8.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b8bf8.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b8bf8.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_b8bf8.dir/objects.a @CMakeFiles\cmTC_b8bf8.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_b8bf8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b8bf8.exe -Wl,--out-implib,libcmTC_b8bf8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\MinGW\bin\gcc.exe
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls
+Thread model: win32
+gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b8bf8.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\User\AppData\Local\Temp\ccmFpANA.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_b8bf8.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_b8bf8.dir/objects.a --no-whole-archive --out-implib libcmTC_b8bf8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b8bf8.exe' '-mtune=generic' '-march=i586'
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_b8bf8/fast"]
+  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b8bf8.dir\build.make CMakeFiles/cmTC_b8bf8.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b8bf8.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_b8bf8.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files (x86)\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_b8bf8.exe]
+  ignore line: ["C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b8bf8.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b8bf8.dir/objects.a]
+  ignore line: [C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_b8bf8.dir/objects.a @CMakeFiles\cmTC_b8bf8.dir\objects1.rsp]
+  ignore line: [C:\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_b8bf8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b8bf8.exe -Wl,--out-implib,libcmTC_b8bf8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\MinGW\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
+  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
+  ignore line: [c:/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/]
+  ignore line: [c:/mingw/bin/../lib/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b8bf8.exe' '-mtune=generic' '-march=i586']
+  link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\User\AppData\Local\Temp\ccmFpANA.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_b8bf8.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_b8bf8.dir/objects.a --no-whole-archive --out-implib libcmTC_b8bf8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+    arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\User\AppData\Local\Temp\ccmFpANA.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b8bf8.exe] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> ignore
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0]
+    arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_b8bf8.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_b8bf8.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0]
+  collapse library dir [c:/mingw/bin/../lib/gcc] ==> [C:/MinGW/lib/gcc]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> [C:/MinGW/mingw32/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> [C:/MinGW/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [C:/MinGW/lib/gcc/mingw32/6.3.0;C:/MinGW/lib/gcc;C:/MinGW/mingw32/lib;C:/MinGW/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_e0662/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_e0662.dir\build.make CMakeFiles/cmTC_e0662.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0662.dir/feature_tests.c.obj
+C:\MinGW\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_e0662.dir\feature_tests.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_e0662.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e0662.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e0662.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_e0662.dir/objects.a @CMakeFiles\cmTC_e0662.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_e0662.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e0662.exe -Wl,--out-implib,libcmTC_e0662.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e0662.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_01d63/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_01d63.dir\build.make CMakeFiles/cmTC_01d63.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01d63.dir/feature_tests.c.obj
+C:\MinGW\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_01d63.dir\feature_tests.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_01d63.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_01d63.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_01d63.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_01d63.dir/objects.a @CMakeFiles\cmTC_01d63.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_01d63.dir/objects.a -Wl,--no-whole-archive  -o cmTC_01d63.exe -Wl,--out-implib,libcmTC_01d63.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_01d63.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_ad0ef/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_ad0ef.dir\build.make CMakeFiles/cmTC_ad0ef.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad0ef.dir/feature_tests.c.obj
+C:\MinGW\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_ad0ef.dir\feature_tests.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_ad0ef.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ad0ef.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ad0ef.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_ad0ef.dir/objects.a @CMakeFiles\cmTC_ad0ef.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_ad0ef.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ad0ef.exe -Wl,--out-implib,libcmTC_ad0ef.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ad0ef.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test OPT-pedantic succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_52d5c/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_52d5c.dir\build.make CMakeFiles/cmTC_52d5c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52d5c.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -DOPT-pedantic   -pedantic -o CMakeFiles\cmTC_52d5c.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_52d5c.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_52d5c.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_52d5c.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_52d5c.dir/objects.a @CMakeFiles\cmTC_52d5c.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -DOPT-pedantic    -Wl,--whole-archive CMakeFiles\cmTC_52d5c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_52d5c.exe -Wl,--out-implib,libcmTC_52d5c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_52d5c.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wall succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_13981/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_13981.dir\build.make CMakeFiles/cmTC_13981.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13981.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -DOPT-Wall   -Wall -o CMakeFiles\cmTC_13981.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_13981.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_13981.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_13981.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_13981.dir/objects.a @CMakeFiles\cmTC_13981.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -DOPT-Wall    -Wl,--whole-archive CMakeFiles\cmTC_13981.dir/objects.a -Wl,--no-whole-archive  -o cmTC_13981.exe -Wl,--out-implib,libcmTC_13981.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_13981.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-W succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_08a21/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_08a21.dir\build.make CMakeFiles/cmTC_08a21.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08a21.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -DOPT-W   -W -o CMakeFiles\cmTC_08a21.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_08a21.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_08a21.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_08a21.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_08a21.dir/objects.a @CMakeFiles\cmTC_08a21.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -DOPT-W    -Wl,--whole-archive CMakeFiles\cmTC_08a21.dir/objects.a -Wl,--no-whole-archive  -o cmTC_08a21.exe -Wl,--out-implib,libcmTC_08a21.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_08a21.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wpointer-arith succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_28032/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_28032.dir\build.make CMakeFiles/cmTC_28032.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28032.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -DOPT-Wpointer-arith   -Wpointer-arith -o CMakeFiles\cmTC_28032.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_28032.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_28032.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_28032.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_28032.dir/objects.a @CMakeFiles\cmTC_28032.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -DOPT-Wpointer-arith    -Wl,--whole-archive CMakeFiles\cmTC_28032.dir/objects.a -Wl,--no-whole-archive  -o cmTC_28032.exe -Wl,--out-implib,libcmTC_28032.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_28032.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wwrite-strings succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_a60ae/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_a60ae.dir\build.make CMakeFiles/cmTC_a60ae.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a60ae.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -DOPT-Wwrite-strings   -Wwrite-strings -o CMakeFiles\cmTC_a60ae.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_a60ae.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a60ae.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a60ae.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_a60ae.dir/objects.a @CMakeFiles\cmTC_a60ae.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -DOPT-Wwrite-strings    -Wl,--whole-archive CMakeFiles\cmTC_a60ae.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a60ae.exe -Wl,--out-implib,libcmTC_a60ae.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a60ae.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wunused succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_01550/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_01550.dir\build.make CMakeFiles/cmTC_01550.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01550.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -DOPT-Wunused   -Wunused -o CMakeFiles\cmTC_01550.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_01550.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_01550.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_01550.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_01550.dir/objects.a @CMakeFiles\cmTC_01550.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -DOPT-Wunused    -Wl,--whole-archive CMakeFiles\cmTC_01550.dir/objects.a -Wl,--no-whole-archive  -o cmTC_01550.exe -Wl,--out-implib,libcmTC_01550.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_01550.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wshadow succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_74e0b/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_74e0b.dir\build.make CMakeFiles/cmTC_74e0b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74e0b.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -DOPT-Wshadow   -Wshadow -o CMakeFiles\cmTC_74e0b.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_74e0b.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_74e0b.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_74e0b.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_74e0b.dir/objects.a @CMakeFiles\cmTC_74e0b.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -DOPT-Wshadow    -Wl,--whole-archive CMakeFiles\cmTC_74e0b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_74e0b.exe -Wl,--out-implib,libcmTC_74e0b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_74e0b.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Winline succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_c61ae/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c61ae.dir\build.make CMakeFiles/cmTC_c61ae.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c61ae.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -DOPT-Winline   -Winline -o CMakeFiles\cmTC_c61ae.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_c61ae.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c61ae.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c61ae.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_c61ae.dir/objects.a @CMakeFiles\cmTC_c61ae.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -DOPT-Winline    -Wl,--whole-archive CMakeFiles\cmTC_c61ae.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c61ae.exe -Wl,--out-implib,libcmTC_c61ae.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c61ae.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wnested-externs succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_a521e/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_a521e.dir\build.make CMakeFiles/cmTC_a521e.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a521e.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -DOPT-Wnested-externs   -Wnested-externs -o CMakeFiles\cmTC_a521e.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_a521e.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a521e.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a521e.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_a521e.dir/objects.a @CMakeFiles\cmTC_a521e.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -DOPT-Wnested-externs    -Wl,--whole-archive CMakeFiles\cmTC_a521e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a521e.exe -Wl,--out-implib,libcmTC_a521e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a521e.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wmissing-declarations succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_0a24d/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_0a24d.dir\build.make CMakeFiles/cmTC_0a24d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a24d.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -DOPT-Wmissing-declarations   -Wmissing-declarations -o CMakeFiles\cmTC_0a24d.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_0a24d.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0a24d.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_0a24d.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_0a24d.dir/objects.a @CMakeFiles\cmTC_0a24d.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -DOPT-Wmissing-declarations    -Wl,--whole-archive CMakeFiles\cmTC_0a24d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0a24d.exe -Wl,--out-implib,libcmTC_0a24d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0a24d.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wmissing-prototypes succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_8a002/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_8a002.dir\build.make CMakeFiles/cmTC_8a002.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a002.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -DOPT-Wmissing-prototypes   -Wmissing-prototypes -o CMakeFiles\cmTC_8a002.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_8a002.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8a002.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_8a002.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_8a002.dir/objects.a @CMakeFiles\cmTC_8a002.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -DOPT-Wmissing-prototypes    -Wl,--whole-archive CMakeFiles\cmTC_8a002.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8a002.exe -Wl,--out-implib,libcmTC_8a002.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8a002.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wno-long-long succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_b171d/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b171d.dir\build.make CMakeFiles/cmTC_b171d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b171d.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -DOPT-Wno-long-long   -Wno-long-long -o CMakeFiles\cmTC_b171d.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_b171d.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b171d.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b171d.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_b171d.dir/objects.a @CMakeFiles\cmTC_b171d.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -DOPT-Wno-long-long    -Wl,--whole-archive CMakeFiles\cmTC_b171d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b171d.exe -Wl,--out-implib,libcmTC_b171d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b171d.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wfloat-equal succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_337ce/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_337ce.dir\build.make CMakeFiles/cmTC_337ce.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_337ce.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -DOPT-Wfloat-equal   -Wfloat-equal -o CMakeFiles\cmTC_337ce.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_337ce.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_337ce.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_337ce.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_337ce.dir/objects.a @CMakeFiles\cmTC_337ce.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -DOPT-Wfloat-equal    -Wl,--whole-archive CMakeFiles\cmTC_337ce.dir/objects.a -Wl,--no-whole-archive  -o cmTC_337ce.exe -Wl,--out-implib,libcmTC_337ce.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_337ce.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wno-multichar succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_4f462/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_4f462.dir\build.make CMakeFiles/cmTC_4f462.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f462.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -DOPT-Wno-multichar   -Wno-multichar -o CMakeFiles\cmTC_4f462.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_4f462.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4f462.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_4f462.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_4f462.dir/objects.a @CMakeFiles\cmTC_4f462.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -DOPT-Wno-multichar    -Wl,--whole-archive CMakeFiles\cmTC_4f462.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4f462.exe -Wl,--out-implib,libcmTC_4f462.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4f462.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wsign-compare succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_c02e5/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c02e5.dir\build.make CMakeFiles/cmTC_c02e5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c02e5.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -DOPT-Wsign-compare   -Wsign-compare -o CMakeFiles\cmTC_c02e5.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_c02e5.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c02e5.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c02e5.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_c02e5.dir/objects.a @CMakeFiles\cmTC_c02e5.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -DOPT-Wsign-compare    -Wl,--whole-archive CMakeFiles\cmTC_c02e5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c02e5.exe -Wl,--out-implib,libcmTC_c02e5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c02e5.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wundef succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_d3811/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d3811.dir\build.make CMakeFiles/cmTC_d3811.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3811.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -DOPT-Wundef   -Wundef -o CMakeFiles\cmTC_d3811.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_d3811.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d3811.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d3811.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_d3811.dir/objects.a @CMakeFiles\cmTC_d3811.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -DOPT-Wundef    -Wl,--whole-archive CMakeFiles\cmTC_d3811.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d3811.exe -Wl,--out-implib,libcmTC_d3811.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d3811.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wno-format-nonliteral succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_cbb3d/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_cbb3d.dir\build.make CMakeFiles/cmTC_cbb3d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbb3d.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -DOPT-Wno-format-nonliteral   -Wno-format-nonliteral -o CMakeFiles\cmTC_cbb3d.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_cbb3d.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_cbb3d.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_cbb3d.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_cbb3d.dir/objects.a @CMakeFiles\cmTC_cbb3d.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -DOPT-Wno-format-nonliteral    -Wl,--whole-archive CMakeFiles\cmTC_cbb3d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cbb3d.exe -Wl,--out-implib,libcmTC_cbb3d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_cbb3d.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wendif-labels succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_32e40/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_32e40.dir\build.make CMakeFiles/cmTC_32e40.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32e40.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -DOPT-Wendif-labels   -Wendif-labels -o CMakeFiles\cmTC_32e40.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_32e40.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_32e40.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_32e40.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_32e40.dir/objects.a @CMakeFiles\cmTC_32e40.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -DOPT-Wendif-labels    -Wl,--whole-archive CMakeFiles\cmTC_32e40.dir/objects.a -Wl,--no-whole-archive  -o cmTC_32e40.exe -Wl,--out-implib,libcmTC_32e40.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_32e40.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-prototypes succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_ecf33/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_ecf33.dir\build.make CMakeFiles/cmTC_ecf33.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ecf33.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -DOPT-Wstrict-prototypes   -Wstrict-prototypes -o CMakeFiles\cmTC_ecf33.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_ecf33.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ecf33.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ecf33.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_ecf33.dir/objects.a @CMakeFiles\cmTC_ecf33.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -DOPT-Wstrict-prototypes    -Wl,--whole-archive CMakeFiles\cmTC_ecf33.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ecf33.exe -Wl,--out-implib,libcmTC_ecf33.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ecf33.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wdeclaration-after-statement succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_59c43/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_59c43.dir\build.make CMakeFiles/cmTC_59c43.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59c43.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -DOPT-Wdeclaration-after-statement   -Wdeclaration-after-statement -o CMakeFiles\cmTC_59c43.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_59c43.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_59c43.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_59c43.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_59c43.dir/objects.a @CMakeFiles\cmTC_59c43.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -DOPT-Wdeclaration-after-statement    -Wl,--whole-archive CMakeFiles\cmTC_59c43.dir/objects.a -Wl,--no-whole-archive  -o cmTC_59c43.exe -Wl,--out-implib,libcmTC_59c43.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_59c43.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wstrict-aliasing=3 succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_b3298/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b3298.dir\build.make CMakeFiles/cmTC_b3298.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3298.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3   -Wstrict-aliasing=3 -o CMakeFiles\cmTC_b3298.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_b3298.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b3298.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b3298.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_b3298.dir/objects.a @CMakeFiles\cmTC_b3298.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -DOPT-Wstrict-aliasing=3    -Wl,--whole-archive CMakeFiles\cmTC_b3298.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b3298.exe -Wl,--out-implib,libcmTC_b3298.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b3298.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wcast-align succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_f89c5/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f89c5.dir\build.make CMakeFiles/cmTC_f89c5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f89c5.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -DOPT-Wcast-align   -Wcast-align -o CMakeFiles\cmTC_f89c5.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_f89c5.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f89c5.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_f89c5.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_f89c5.dir/objects.a @CMakeFiles\cmTC_f89c5.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -DOPT-Wcast-align    -Wl,--whole-archive CMakeFiles\cmTC_f89c5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f89c5.exe -Wl,--out-implib,libcmTC_f89c5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f89c5.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wtype-limits succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_b0910/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b0910.dir\build.make CMakeFiles/cmTC_b0910.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0910.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -DOPT-Wtype-limits   -Wtype-limits -o CMakeFiles\cmTC_b0910.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_b0910.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b0910.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b0910.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_b0910.dir/objects.a @CMakeFiles\cmTC_b0910.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -DOPT-Wtype-limits    -Wl,--whole-archive CMakeFiles\cmTC_b0910.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b0910.exe -Wl,--out-implib,libcmTC_b0910.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b0910.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wold-style-declaration succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_d946a/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d946a.dir\build.make CMakeFiles/cmTC_d946a.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d946a.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -DOPT-Wold-style-declaration   -Wold-style-declaration -o CMakeFiles\cmTC_d946a.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_d946a.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d946a.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d946a.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_d946a.dir/objects.a @CMakeFiles\cmTC_d946a.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -DOPT-Wold-style-declaration    -Wl,--whole-archive CMakeFiles\cmTC_d946a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d946a.exe -Wl,--out-implib,libcmTC_d946a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d946a.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wmissing-parameter-type succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_39c49/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_39c49.dir\build.make CMakeFiles/cmTC_39c49.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39c49.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -DOPT-Wmissing-parameter-type   -Wmissing-parameter-type -o CMakeFiles\cmTC_39c49.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_39c49.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_39c49.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_39c49.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_39c49.dir/objects.a @CMakeFiles\cmTC_39c49.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -DOPT-Wmissing-parameter-type    -Wl,--whole-archive CMakeFiles\cmTC_39c49.dir/objects.a -Wl,--no-whole-archive  -o cmTC_39c49.exe -Wl,--out-implib,libcmTC_39c49.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_39c49.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wempty-body succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_24eda/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_24eda.dir\build.make CMakeFiles/cmTC_24eda.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24eda.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -DOPT-Wempty-body   -Wempty-body -o CMakeFiles\cmTC_24eda.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_24eda.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_24eda.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_24eda.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_24eda.dir/objects.a @CMakeFiles\cmTC_24eda.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -DOPT-Wempty-body    -Wl,--whole-archive CMakeFiles\cmTC_24eda.dir/objects.a -Wl,--no-whole-archive  -o cmTC_24eda.exe -Wl,--out-implib,libcmTC_24eda.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_24eda.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wclobbered succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_61a62/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_61a62.dir\build.make CMakeFiles/cmTC_61a62.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61a62.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -DOPT-Wclobbered   -Wclobbered -o CMakeFiles\cmTC_61a62.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_61a62.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_61a62.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_61a62.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_61a62.dir/objects.a @CMakeFiles\cmTC_61a62.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -DOPT-Wclobbered    -Wl,--whole-archive CMakeFiles\cmTC_61a62.dir/objects.a -Wl,--no-whole-archive  -o cmTC_61a62.exe -Wl,--out-implib,libcmTC_61a62.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_61a62.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wignored-qualifiers succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_0d0be/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_0d0be.dir\build.make CMakeFiles/cmTC_0d0be.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d0be.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -DOPT-Wignored-qualifiers   -Wignored-qualifiers -o CMakeFiles\cmTC_0d0be.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_0d0be.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0d0be.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_0d0be.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_0d0be.dir/objects.a @CMakeFiles\cmTC_0d0be.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -DOPT-Wignored-qualifiers    -Wl,--whole-archive CMakeFiles\cmTC_0d0be.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0d0be.exe -Wl,--out-implib,libcmTC_0d0be.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0d0be.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wconversion succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_9cf34/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_9cf34.dir\build.make CMakeFiles/cmTC_9cf34.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9cf34.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -DOPT-Wconversion   -Wconversion -o CMakeFiles\cmTC_9cf34.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_9cf34.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9cf34.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_9cf34.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_9cf34.dir/objects.a @CMakeFiles\cmTC_9cf34.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -DOPT-Wconversion    -Wl,--whole-archive CMakeFiles\cmTC_9cf34.dir/objects.a -Wl,--no-whole-archive  -o cmTC_9cf34.exe -Wl,--out-implib,libcmTC_9cf34.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_9cf34.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wno-sign-conversion succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_26b38/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_26b38.dir\build.make CMakeFiles/cmTC_26b38.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26b38.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -DOPT-Wno-sign-conversion   -Wno-sign-conversion -o CMakeFiles\cmTC_26b38.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_26b38.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_26b38.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_26b38.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_26b38.dir/objects.a @CMakeFiles\cmTC_26b38.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -DOPT-Wno-sign-conversion    -Wl,--whole-archive CMakeFiles\cmTC_26b38.dir/objects.a -Wl,--no-whole-archive  -o cmTC_26b38.exe -Wl,--out-implib,libcmTC_26b38.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_26b38.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wvla succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_befe6/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_befe6.dir\build.make CMakeFiles/cmTC_befe6.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_befe6.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -DOPT-Wvla   -Wvla -o CMakeFiles\cmTC_befe6.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_befe6.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_befe6.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_befe6.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_befe6.dir/objects.a @CMakeFiles\cmTC_befe6.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -DOPT-Wvla    -Wl,--whole-archive CMakeFiles\cmTC_befe6.dir/objects.a -Wl,--no-whole-archive  -o cmTC_befe6.exe -Wl,--out-implib,libcmTC_befe6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_befe6.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wdouble-promotion succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_8365d/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_8365d.dir\build.make CMakeFiles/cmTC_8365d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8365d.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -DOPT-Wdouble-promotion   -Wdouble-promotion -o CMakeFiles\cmTC_8365d.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_8365d.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8365d.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_8365d.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_8365d.dir/objects.a @CMakeFiles\cmTC_8365d.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -DOPT-Wdouble-promotion    -Wl,--whole-archive CMakeFiles\cmTC_8365d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8365d.exe -Wl,--out-implib,libcmTC_8365d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8365d.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT-Wno-system-headers succeeded with the following output:
+Change Dir: C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_102c3/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_102c3.dir\build.make CMakeFiles/cmTC_102c3.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_102c3.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -DOPT-Wno-system-headers   -Wno-system-headers -o CMakeFiles\cmTC_102c3.dir\src.c.obj   -c "C:\Users\User\Desktop\curl build\CMakeFiles\CMakeTmp\src.c"
+<command-line>:0:4: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_102c3.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_102c3.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_102c3.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_102c3.dir/objects.a @CMakeFiles\cmTC_102c3.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -DOPT-Wno-system-headers    -Wl,--whole-archive CMakeFiles\cmTC_102c3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_102c3.exe -Wl,--out-implib,libcmTC_102c3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_102c3.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/User/Desktop/curl build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
